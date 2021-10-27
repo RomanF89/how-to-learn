@@ -135,10 +135,6 @@
   margin-top: 0;
 }
 
-.cell_margin {
-  margin-top: 20px;
-}
-
 .table__cell {
   display: flex;
   flex-direction: column;
@@ -308,6 +304,8 @@
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 16px;
+  list-style: none;
+  padding: 0;
 }
 
 .column_column-link {

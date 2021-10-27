@@ -143,6 +143,10 @@
   justify-content: start;
 }
 
+.table__cell_caption {
+  margin-top: 20px;
+}
+
 .section-title {
   line-height: 1.15;
   font-size: 60px;

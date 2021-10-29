@@ -146,6 +146,7 @@
   font-size: 18px;
   font-weight: normal;
   padding: 0;
+  margin: 0;
 }
 
 .section-title {
@@ -165,7 +166,7 @@
   margin: 0;
 }
 
-.table__cell_caption {
+.table__text_caption {
   margin-top: 20px;
 }
 

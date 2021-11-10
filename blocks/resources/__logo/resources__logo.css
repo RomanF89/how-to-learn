@@ -3,9 +3,9 @@
   height: 38px;
   display: flex;
   justify-content: center;
+  transition: opacity 0.5s ease-in;
 }
 
 .resources__logo:hover {
   opacity: 0.33;
-  transition: opacity 0.5s ease-in;
 }

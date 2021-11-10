@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -16,7 +15,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
         жизни?
-        <a class="header__link" href="#">Узнать &rarr;</a>
+        <a class="header__link" href="#" target="_blank">Узнать &rarr;</a>
       </p>
       <div class="header__square-pic rotation"></div>
       <img src="./images/header-image.png" class="header__main-illustration" alt="Иллюстрация">
@@ -85,12 +84,10 @@
         <p class="section-subtitle">Для тех кто любит прокрастинировать</p>
         <ul class="video__iframes">
           <li>
-            <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
-              allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
           </li>
           <li>
-            <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
-              allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
           </li>
         </ul>
       </section>
@@ -112,7 +109,7 @@
         <h2 class="feynman__title">Метод фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
         <img src="images/feynman.png" class="feynman__illustration" alt="Фейнман">
-        <a class="feynman__link" href="#">Подробнее &rarr;</a>
+        <a class="feynman__link" href="#" target="_blank">Подробнее &rarr;</a>
       </section>
 
       <section class="digits">
@@ -160,14 +157,14 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир - школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
             всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
-            повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+            повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюссер</p>
           <div class="khan__book-container">
             <img src="./images/images_sprint-2/khan-book.jpg" class="khan__book-pic" alt="Книга">
-            <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
+            <a class="khan__buy-link" href="#" target="_blank">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -224,18 +221,16 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <nav class="resources__logo-zone">
-          <ul>
-            <li><a href="https://arzamas.academy/" class="resources__logo" target="_blank"><img
-                  src="./images/images_sprint-2/logo/resources-arzamas.svg" alt="Арзамас"></a></li>
-            <li><a href="https://nplus1.ru/" class="resources__logo" target="_blank"><img
-                  src="./images/images_sprint-2/logo/resources-n1.svg" alt="Н1"></a></li>
-            <li><a href="https://strelka.com/" class="resources__logo" target="_blank"><img
-                  src="./images/images_sprint-2/logo/resources-strelka.svg" alt="Стрелка"></a></li>
-            <li><a href="https://polka.academy/" class="resources__logo" target="_blank"><img
-                  src="./images/images_sprint-2/logo/resources-polka.svg" alt="Полка"></a></li>
-          </ul>
-        </nav>
+        <ul class="resources__logo-zone">
+          <li><a href="https://arzamas.academy/" class="resources__logo" target="_blank"><img
+                src="./images/images_sprint-2/logo/resources-arzamas.svg" alt="Арзамас"></a></li>
+          <li><a href="https://nplus1.ru/" class="resources__logo" target="_blank"><img
+                src="./images/images_sprint-2/logo/resources-n1.svg" alt="Н1"></a></li>
+          <li><a href="https://strelka.com/" class="resources__logo" target="_blank"><img
+                src="./images/images_sprint-2/logo/resources-strelka.svg" alt="Стрелка"></a></li>
+          <li><a href="https://polka.academy/" class="resources__logo" target="_blank"><img
+                src="./images/images_sprint-2/logo/resources-polka.svg" alt="Полка"></a></li>
+        </ul>
       </section>
     </main>
 
@@ -248,9 +243,9 @@
         <nav class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
           <ul class="footer__column-links">
-            <li><a href="#" class="footer__column-link">Главная</a></li>
-            <li><a href="#" class="footer__column-link">Концепция</a></li>
-            <li><a href="#" class="footer__column-link">Наставники</a></li>
+            <li><a href="#" class="footer__column-link" target="_blank">Главная</a></li>
+            <li><a href="#" class="footer__column-link" target="_blank">Концепция</a></li>
+            <li><a href="#" class="footer__column-link" target="_blank">Наставники</a></li>
           </ul>
         </nav>
         <nav class=" footer__column footer__column_content_social">
